@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18643488400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to events page successfully",
+        "description": "",
+        "id": "natoor-page-functionality;user-should-navigate-to-events-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1764852900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 513185600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on home page",
+            "match": {
+              "location": "EventsSteps.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 824589000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on community link",
+            "match": {
+              "location": "EventsSteps.iClickOnCommunityLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 605907400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on  events",
+            "match": {
+              "location": "EventsSteps.iClickOnEvents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see events page",
+            "match": {
+              "location": "EventsSteps.iShouldSeeEventsPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Natoor page functionality",
+    "description": "As a user\r\nI want to navigate to Natoor website",
+    "id": "natoor-page-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/uk/co/natoora/resources/featurefile/home.feature"
+  }
+]
